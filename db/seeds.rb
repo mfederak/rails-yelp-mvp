@@ -14,23 +14,23 @@ restaurants_attributes = [
   {
     name:         'Dishoom',
     address:      '7 Boundary St, London E2 7JE',
-    category:     'Belgian',
+    category:     'belgian',
   },
   {
     name:         'Pizza East',
     address:      '56A Shoreditch High St, London E1 6PQ',
     category:     'italian',
-  }
+  },
   {
     name:         'Arigato',
     address:      'rue Saint-Anne',
     category:     'japanese',
-  }
+  },
   {
     name:         'East Mama',
     address:      'Ledru-Rollin',
     category:     'italian',
-  }
+  },
   {
     name:         'Alicheur',
     address:      'rue Oberkampf',
