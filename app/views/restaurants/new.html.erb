@@ -1,1 +1,25 @@
-<%= render 'form' %>
+<div class="container"> <h1>New Restaurant</h1>
+</div>
+</br>
+
+<%= simple_form_for(@restaurant) do |f| %>
+  <%= f.error_notification %>
+
+  <div class= "container form-inputs">
+    <%= f.input :name %>
+    <%= f.input :address %>
+    <%= f.input :category, collection: Restaurant::CATEGORY, prompt: "Choose a category" %>
+    <%= f.input :phone_number %>
+  </div>
+
+  <div class="container form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>
+
+
+</br>
+<div class="container"> <%= link_to 'Back', restaurants_path %> </div>
+
+
+
